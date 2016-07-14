@@ -16,7 +16,7 @@ else:
 # Code nabbed from Stack Overflow to disable 
 # notifications for selenium
 b = webdriver.Firefox()
-b.get('http://facebook.com')
+b.get('http://messenger.com')
 
 email = b.find_element_by_css_selector("#email")
 password = b.find_element_by_css_selector("#pass")
